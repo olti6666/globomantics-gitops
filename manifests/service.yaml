@@ -1,0 +1,39 @@
+piVersion: v1
+kind: Service
+metadata:
+    name: globomantics
+        namespace: globomantics
+        spec:
+            selector:
+                  app: globomantics
+                      ports:
+                          - protocol: TCP
+                                port: 80
+                                      targetPort: 80
+                                          type: ClusterIP
+
+
+
+
+   
+     
+        
+            
+              
+                  
+
+
+
+
+
+
+
+
+
+
+    
+
+                        
+                             
+                                     
+                                   
